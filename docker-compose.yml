@@ -1,0 +1,6 @@
+﻿services:
+  coffeebrewer:
+    image: coffeebrewer
+    build:
+      context: .
+      dockerfile: CoffeeBrewer/Dockerfile
